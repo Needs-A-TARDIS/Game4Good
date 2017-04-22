@@ -1,0 +1,5 @@
+instance_create(0,0,pause_menu)
+instance_create(0,0,situation)
+instance_create(0,0,back_button)
+instance_create(51,0,pause_button)
+script_execute(create_cards)

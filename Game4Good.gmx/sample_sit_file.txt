@@ -1,0 +1,31 @@
+----
+# //situation ID 
+d: //use this "d:" exactly! 
+Health 0 Social 1 Indicator [Change as a number] | situation description goes here Lorem ipsum stuf stuf stuf    
+c:
+choice 
+choice_image.png //path to this particular image 
+# //situation ID that this choice links to 
+---- // separate each situation using 4 dashes
+0
+d: 
+It’s the afternoon of the O-Week's second day, and your parents just left campus to drive back home, 500 miles away. Your roommate is still hanging out with her brother, a junior, and his friends. You sit at your desk, aware that you don’t know anyone at Duke. You remember that your RA planned an ice cream social for the hall, but also realize that you’re already falling behind on your goal of going to the gym each day. What do you do?
+c:
+Go to the ice cream social.
+ice_cream_choice_image.png
+1
+Go to the gym.
+gym_choice_image.png
+2
+----
+1
+d: 
+Health -1 Social 1 | You decide to go to the ice cream social in the common room. You put guilt aside and begin to enjoy a bowl of the Harris Teeter-brand good stuff. You hear plenty of chatter in the room, punctuated by the occasional moment of awkward silence. Standing to the side with your bowl, you notice a group of four or five others forming close by. What do you do?
+c: 
+Approach and introduce yourself to the student closest to you. 
+""
+3
+Wait for one of them to approach you.
+""
+4
+----
