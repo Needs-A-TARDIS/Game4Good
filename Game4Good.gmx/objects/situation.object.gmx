@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>show_debug_message("situation create event "+string(global.sitID))
+script_execute(indicator_change)
 </string>
           </argument>
         </arguments>

@@ -5,7 +5,7 @@ global.indic = array(0,0,0,0)
 //group objects by whether or not they exist in gameplay or the pause menu
 global.playObjs = array(situation,card1_obj,card0_obj,back_button)
 global.pauseObjs= array(pause_menu,quit_button)
-
+global.indicSet = array(false,false,false)
 //TODO put in for loop for reading from text
 //modulo line counters wont work 
 //put start & end markers like ---
@@ -33,7 +33,7 @@ global.sitList[0,9] = 2
 global.sitList[0,10] = gym2
 //ice cream situation
 global.sitList[1,0] = "You decide to go to the ice cream social in the common room. You put guilt aside and begin to enjoy a bowl of the Harris Teeter-brand good stuff. You hear plenty of chatter in the room, punctuated by the occasional moment of awkward silence. Standing to the side with your bowl, you notice a group of four or five others forming close by. What do you do?"
-global.sitList[1,1] = array(-0.5,0.5,0,0)
+global.sitList[1,1] = array(-1,1,0,0)
 global.sitList[1,2] = 0
 global.sitList[1,3] = "Approach and introduce yourself to them."
 global.sitList[1,4] = ""
