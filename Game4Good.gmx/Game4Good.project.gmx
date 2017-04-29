@@ -12,6 +12,7 @@
     <sprite>sprites\play_spr</sprite>
     <sprite>sprites\pause_spr</sprite>
     <sprite>sprites\pause_mask_spr</sprite>
+    <sprite>sprites\quit_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dorm_bg</background>
@@ -26,11 +27,13 @@
     <script>scripts\card_draw.gml</script>
     <script>scripts\card1_draw_tmp.gml</script>
     <script>scripts\card0_draw_tmp.gml</script>
-    <script>scripts\indicator_change.gml</script>
+    <script>scripts\old_indicator_change.gml</script>
     <script>scripts\string_split.gml</script>
     <script>scripts\pause_on_click.gml</script>
     <script>scripts\create_cards.gml</script>
     <script>scripts\sit_create.gml</script>
+    <script>scripts\indic_draw.gml</script>
+    <script>scripts\indicator_change.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -43,6 +46,7 @@
     <object>objects\pause_button</object>
     <object>objects\pause_menu</object>
     <object>objects\gm_obj</object>
+    <object>objects\quit_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\dorm0</room>

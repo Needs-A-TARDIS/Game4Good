@@ -11,7 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.sitID = 2
-script_execute(sit_create)</code>
+script_execute(sit_create)
+show_debug_message('calling sit_create from gym2 creation code')</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
