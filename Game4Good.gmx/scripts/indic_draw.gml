@@ -1,3 +1,5 @@
+
+draw_sprite(pause_mask_spr,0,0,0)
 //draw indicators
 draw_set_font(font0)
 

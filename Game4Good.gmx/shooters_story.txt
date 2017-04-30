@@ -1,0 +1,49 @@
+---- // separate each situation using 4 dashes
+0
+d: 
+You and Alicia announce that you are walking to shooters. Three other people in the room decide to go with you. The five of you start off on the ten minute walk. Surprisingly, there is already a really long line outside the under 21 line. What is your next move?
+c:
+Try to go in the over 21 line
+1
+Go the under 21 line
+2
+----
+1
+d: 
+Social 1 | You decide to go to the under 21 line. As you're walking to the back of the line, you hear someone shout your name. You look up and spot your roommate who is near the front of the line with some of her friends. "Come up here with us!" she shouts
+c: 
+Tell her you'll meet her inside, and proceed to the back of the line
+""
+3
+Skip the line and join your roommate
+""
+4
+----
+2
+d:
+Social 1 | You, Alicia, and your friends from the pregame go to the back of the line. The line barely moves, but you have a fun time socializing with your friends and meet fellow companions waiting in line. After 30 minutes, you make it to the bouncer and enter Shooters. Alicia enters right before you, but by the time you walk through you have already lost her. Where do you go now?
+c:
+Up the stairs
+""
+5
+Dance floor
+""
+6
+Walk around the first floor
+""
+7
+----
+3
+d:
+Social -2 | You sneak into line with your roommate. Instantly someone behind you shouts "Hey, you have to wait in line like the rest of us!" This makes you feel like a jerk, but you are already in line and decide to stay. Five minutes later you get in. Right after entering you lose your roommate in the large crowd. What is your next move?
+c:
+Up the stairs
+""
+8
+Dance floor
+""
+9
+Walk around the first floor
+""
+10
+----

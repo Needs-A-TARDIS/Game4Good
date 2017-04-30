@@ -81,7 +81,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>card0_draw_tmp</script>
+            <script>card_draw</script>
           </argument>
           <argument>
             <kind>0</kind>
