@@ -13,7 +13,7 @@
   <code>global.sitID = 1
 script_execute(sit_create)
 //room creation code runs twice &gt;:|
-show_debug_message('calling sit_create from ice_cream_social1 reation code')</code>
+//show_debug_message('calling sit_create from ice_cream_social1 reation code')</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
