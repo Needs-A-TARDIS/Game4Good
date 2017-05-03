@@ -7,3 +7,4 @@ for(i = 0; i<array_length_1d(global.pauseObjs);i+=1) {
     instance_deactivate_object(global.pauseObjs[i])
 }
 script_execute(create_cards)
+

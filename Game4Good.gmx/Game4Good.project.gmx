@@ -18,6 +18,7 @@
     <background>background\dorm_bg</background>
     <background>background\gym_bg</background>
     <background>background\ice_cream_bg</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -25,23 +26,24 @@
     <script>scripts\array.gml</script>
     <script>scripts\sit_draw.gml</script>
     <script>scripts\card_draw.gml</script>
-    <script>scripts\card1_draw_tmp.gml</script>
-    <script>scripts\card0_draw_tmp.gml</script>
-    <script>scripts\old_indicator_change.gml</script>
-    <script>scripts\string_split.gml</script>
     <script>scripts\pause_on_click.gml</script>
     <script>scripts\create_cards.gml</script>
-    <script>scripts\sit_create.gml</script>
-    <script>scripts\indic_draw.gml</script>
+    <script>scripts\create_rm.gml</script>
     <script>scripts\indicator_change.gml</script>
+    <scripts name="unused">
+      <script>scripts\string_split.gml</script>
+      <script>scripts\indic_draw.gml</script>
+    </scripts>
+    <script>scripts\card_click.gml</script>
+    <script>scripts\zero.gml</script>
+    <script>scripts\draw_poly.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
-    <object>objects\card1_obj</object>
     <object>objects\situation</object>
-    <object>objects\card0_obj</object>
+    <object>objects\card_obj</object>
     <object>objects\back_button</object>
     <object>objects\pause_button</object>
     <object>objects\pause_menu</object>
@@ -50,6 +52,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\dorm0</room>
+    <room>rooms\dorm1</room>
+    <room>rooms\endroom</room>
     <room>rooms\gym2</room>
     <room>rooms\ice_cream_social1</room>
   </rooms>

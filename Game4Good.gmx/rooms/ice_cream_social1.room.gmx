@@ -10,8 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>global.sitID = 1
-script_execute(sit_create)
+  <code>script_execute(create_rm)
 //room creation code runs twice &gt;:|
 //show_debug_message('calling sit_create from ice_cream_social1 reation code')</code>
   <enableViews>0</enableViews>

@@ -54,7 +54,7 @@ Smile and turn to leave.
 ----
 106
 d:
-C-10; You explore the weight room and eventually find all the equipment you need. As you go through the workout, you observe the others around you and wonder if you're missing out on the comprehensive Duke lifting experience by not yelling and throwing your weights around. As you finish your strength exercises, you begin to stretch by the racquetball courts, and are using the foam roller when another student approaches you. "Hey!" they say, "I've never seen someone who uses a foam roller but doesn't run. Are you the exception?" 
+C-10; "You explore the weight room and eventually find all the equipment you need. As you go through the workout, you observe the others around you and wonder if you're missing out on the comprehensive Duke lifting experience by not yelling and throwing your weights around. As you finish your strength exercises, you begin to stretch by the racquetball courts, and are using the foam roller when another student approaches you. "+char(34)+"Hey!"+char(34)+" they say, "+char(34)+"I've never seen someone who uses a foam roller but doesn't run. Are you the exception?"+char(34) 
 c:
 Reply that you do a fair amount of running.
 116
@@ -63,14 +63,14 @@ State that you are the exception.
 ----
 107
 d:
-E+5, S-5; You arrive a few minutes early and sit in the front row. As the show begins, you glance around and realize that everyone else is sitting rows back – and it looks like they’re all part of a massive, familiar group. The show’s amusing – and interactive: At one point, a performer shouts, “We need a volunteer! Come on, you can’t be any worse than we are!” And then – though you’d done your best to shrink into your seat – he points right at you. “Hey you, you’re practically on stage anyway! Join us!”
+E+5, S-5; "You arrive a few minutes early and sit in the front row. As the show begins, you glance around and realize that everyone else is sitting rows back – and it looks like they’re all part of a massive, familiar group. The show’s amusing – and interactive: At one point, a performer shouts, "+chr(34)+"We need a volunteer! Come on, you can’t be any worse than we are!"+chr(34)+" And then – though you’d done your best to shrink into your seat – he points right at you. "+chr(34)+"Hey you, you’re practically on stage anyway! Join us!"+chr(34)
 c:
 Feeling the whole audience stare at you, you slowly rise from your chair and move to the stage.
 111
 ----
 108
 d:
-E-5, S+5; You approach the host's room for the pregame. Music blares and you have to knock three times before the music suddenly shuts off. You hear a shout of, “Shit, it’s the RA!” and then the student who invited you opens the door a few inches and peeks around. Seeing you, they relax, calling back to the others, “JK, it’s fine!” and invites you in with a smile. Inside are ten other  residents, a few who look familiar from the ice cream social. Everyone else has a drink in their hand, and a miniature beer pong game is ongoing in the middle of the room. One of them smiles and hands you a beer. You've never had a drink before. What do you do?
+E-5, S+5; "You approach the host's room for the pregame. Music blares and you have to knock three times before the music suddenly shuts off. You hear a shout of, "+chr(34)+"Shit, it’s the RA!"+chr(34)+" and then the student who invited you opens the door a few inches and peeks around. Seeing you, they relax, calling back to the others, "+chr(34)+"JK, it’s fine!"+chr(34)+" and invites you in with a smile. Inside are ten other  residents, a few who look familiar from the ice cream social. Everyone else has a drink in their hand, and a miniature beer pong game is ongoing in the middle of the room. One of them smiles and hands you a beer. You've never had a drink before."
 c:
 Take the beer and have a sip.
 112
@@ -79,25 +79,25 @@ Smile and refuse, stating that you don't drink.
 ----
 109
 d:
-S+10; You approach the student, and after the standard O-Week questions ("Where are you from? What are you majoring in?"), they say, "You were running really fast! I was planning to run a few laps around the East Campus loop tomorrow morning -- care to join?" What do you say? 
+S+10; "You approach the student, and after the standard O-Week questions ("+chr(34)+"Where are you from? What are you majoring in?"+chr(34)+"), they say, "+chr(34)+"You were running really fast! I was planning to run a few laps around the East Campus loop tomorrow morning -- care to join?"+chr(34)
 c:
-You say, "Yeah, let's do it!"
+chr(34)+"Yeah, let's do it!"+chr(34)
 114
-You state that you can't do tomorrow, but suggest that you exchange numbers and try again later in the week.
+chr(34)+"I can't do tomorrow. We could try again later in the week. What's your number?"+chr(34)
 115
 ----
 110
 d:
-S-10; As you proceed to the exit, the other student catches up to you. After you introduce yourselves, they say, "You run really fast! I was thinking of going for a run tomorrow -- care to join?" How do you reply?
+S-10; "As you proceed to the exit, the other student catches up to you. After you introduce yourselves, they say, "+chr(34)+"You run really fast! I was thinking of going for a run tomorrow -- care to join?"+chr(34)
 c:
-You say, "Yeah, let's do it!"
+chr(34)+"Yeah, let's do it!"+chr(34)
 114
-You state that you can't do tomorrow, but suggest that you exchange numbers and try again later in the week.
+chr(34)+"I can't do tomorrow. We could try again later in the week. What's your number?"+chr(34)
 115
 ----
 111
 d:
-S+10, C+10; You are suddenly conscious of how baggy your Class of 2021 t-shirt is (they were out of your size). Ten cast members surround you in a semicircle, and you turn to face them, your back now to the audience. After staring at you for what feels like an hour, one asks, “What do you value in friendship?" You murmur, "Humor," to which another performer replies, "Humor? I'm surprised you stayed awake through the first ten minutes of our show -- pure drudgery!" With that, the cast members all guide you off the stage and back to your seat, leaving a stuffed Blue Devil, because "This is a much better friend than any of us could ever hope to be! Audience, we could never hope that you would clap for us, but at least cheer on our bold volunteer!" The crowd claps as you finally relax in your seat.
+S+10, C+10; "You are suddenly conscious of how baggy your Class of 2021 t-shirt is (they were out of your size). Ten cast members surround you in a semicircle, and you turn to face them, your back now to the audience. After staring at you for what feels like an hour, one asks, "+chr(34)+"What do you value in friendship?"+chr(34)+" You murmur, "+chr(34)+"Humor,"+chr(34)+" to which another performer replies, "+chr(34)+"Humor? I'm surprised you stayed awake through the first ten minutes of our show -- pure drudgery!"+chr(34)+" With that, the cast members all guide you off the stage and back to your seat, leaving a stuffed Blue Devil, because "+chr(34)+"This is a much better friend than any of us could ever hope to be! Audience, we could never hope that you would clap for us, but at least cheer on our bold volunteer!"+chr(34)+" The crowd claps as you finally relax in your seat."
 ----
 112
 d:
@@ -105,7 +105,7 @@ S+5, C-5, E-10; Five minutes later, you find yourself in the corner of the room,
 ----
 113
 d:
-S-5, C-5; The student replies, "No problem!" and hands the can to someone else. You stand in the corner of the room, as far from the chaos as possible. As you glance at your phone, you hear shouts and look up to see an unopened bottle of vodka and a dozen plastic shot glasses on a desk. Everyone gathers around the desk, palms outstretched toward the designated bartender. 
+S-5, C-5; "The student replies, "+chr(34)+"No problem!"+chr(34)+" and hands the can to someone else. You stand in the corner of the room, as far from the chaos as possible. As you glance at your phone, you hear shouts and look up to see an unopened bottle of vodka and a dozen plastic shot glasses on a desk. Everyone gathers around the desk, palms outstretched toward the designated bartender." 
 ----
 114
 d:
@@ -113,22 +113,22 @@ E+5, S+10, C+10; 7 AM... You stumble out of bed to quiet your blaring alarm befo
 ----
 115
 d:
-S+5; The student seems a bit disappointed but replies, "It would be great to meet -- we could come to the gym or go to one of the O-Week events instead if you'd prefer!" and you make a mental note to invite them to do something in the next day.
+S+5; "The student seems a bit disappointed but replies, "+chr(34)+"It would be great to meet -- we could come to the gym or go to one of the O-Week events instead if you'd prefer!"+chr(34)+" and you make a mental note to invite them to do something in the next day."
 ----
 116
 d:
-C+5; The student replies, "Great, want to join me tomorrow morning? I've been thinking of going for a few laps on the East Campus loop." What do you say?
+C+5; "The student replies, "+chr(34)+"Great, want to join me tomorrow morning? I've been thinking of going for a few laps on the East Campus loop."+chr(34)+" You reply,"
 c:
-You say, "Yeah, let's do it!"
+chr(34)+"Yeah, let's do it!"+chr(34)
 114
-You state that you can't do tomorrow, but suggest that you exchange numbers and try again later in the week.
+chr(34)+"I can't do tomorrow, but how about later this week? What's your number?"+chr(34)
 115
 ----
 117
 d:
-S-5: The student says, "Well, if you want to give it a try, I'm planning to go tomorrow morning!"
+S-5: "The student says, "+chr(34)+"Well, if you want to give it a try, I'm planning to go tomorrow morning!"+chr(34)
 c: 
-You say, "Yeah, I'll give it a shot!"
+chr(34)+"Yeah, I'll give it a shot!"+chr(34)
 114
 Reaffirm that you are the exception.
 115
